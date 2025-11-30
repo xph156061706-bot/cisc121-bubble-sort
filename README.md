@@ -58,6 +58,28 @@ Each recorded step includes:
 (pass, i, j, snapshot, swapped?)
 ```
 
+### Flowchart: Bubble Sort
+
+Start<br>
+↓<br>
+Input list of numbers<br>
+↓<br>
+For each pass (0..n-1)<br>
+↓<br>
+For each index i<br>
+↓<br>
+Compare a[i] and a[i+1]<br>
+├─ if a[i] > a[i+1] → Swap<br>
+└─ otherwise → Do nothing<br>
+↓<br>
+End inner loop<br>
+├─ if no swaps in this pass → Stop (already sorted)<br>
+└─ else → Next pass<br>
+↓<br>
+Output sorted list<br>
+↓<br>
+End
+
 ---
 
 ## Inputs and Outputs
